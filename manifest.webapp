@@ -1,0 +1,37 @@
+{
+    "version": "1.0.4",
+    "name": "Ebook Creator 2.0",
+    "description": "KaiOS Ebook Creator App For KaiOS 2.5.x. Create Text File Merge Text file And Create KaiOS App From Text file.",
+    "launch_path": "/index.html",
+    "icons": {
+        "56": "/icons/ic_56.png",
+        "112": "/icons/ic_112.png",
+        "128": "/icons/ic_128.png"
+    },
+    "fullscreen": "false",
+    "developer": {
+        "name": "Shifat100"
+    },
+    "permissions": {
+        "device-storage:sdcard": {
+            "access": "readwrite"
+        },
+        "device-storage:sdcard1": {
+            "access": "readwrite"
+        },
+        "spatialnavigation-app-manage": {}
+    },
+    "dependencies": {
+        "ads-sdk": "1.5.5"
+    },
+    "locales": {
+        "en-US": {
+            "name": "Ebook Creator",
+            "subtitle": "An E-Book App Creator",
+            "description": "KaiOS Ebook Creator App For KaiOS 2.5.x. Create Text File Merge Text file And Create KaiOS App From Text file."
+        }
+    },
+    "default_locale": "en-US",
+    "cursor": true,
+    "type": "privileged"
+}
